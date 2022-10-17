@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+</head>
+<body>
+    <form action="./inputForm.php" method="post">
+        <Label>Username: </Label>
+        <input type="text" name="username"><br>
+        <Label>Age: </Label>
+        <input type="number" name="age"><br>
+        <Label>Email: </Label>
+        <input type="email" name="email"><br>
+        <Label>Hobby: </Label>
+        Game <input type="checkbox" name="hobby[]" value="Game">
+        Shopping<input type="checkbox" name="hobby[]" value="Shopping">
+        Drama<input type="checkbox" name="hobby[]" value="Drama">
+        Other<input type="checkbox" name="hobby[]" value="Other"><br>
+        <Label>Phone number: </Label>
+        <input type="tel" name="phone"><br>
+        <Label>DOB: </Label>
+        <input type="date" name="dob"><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
